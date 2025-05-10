@@ -1,0 +1,56 @@
+[
+  {
+    "id": "res-1",
+    "name": "Project HOME",
+    "description": "Project HOME provides housing, opportunities for employment, medical care, and education to enable adults, children, and families to break the cycle of homelessness and poverty.",
+    "location": {
+      "lat": 39.953,
+      "lng": -75.1625
+    }
+  },
+  {
+    "id": "res-2",
+    "name": "Philabundance",
+    "description": "Philabundance is the Delaware Valley’s largest food bank, providing food to people experiencing hunger in nine counties in Pennsylvania and Southern New Jersey.",
+    "location": {
+      "lat": 39.9381,
+      "lng": -75.1753
+    }
+  },
+  {
+    "id": "res-3",
+    "name": "Jefferson Health",
+    "description": "Jefferson Health offers comprehensive healthcare services across multiple locations in Philadelphia.",
+    "location": {
+      "lat": 39.9506,
+      "lng": -75.1586
+    }
+  },
+  {
+    "id": "res-4",
+    "name": "Bethesda Project",
+    "description": "Bethesda Project offers emergency shelter, transitional housing, and permanent supportive housing for individuals experiencing homelessness in Philadelphia.",
+    "location": {
+      "lat": 39.9555,
+      "lng": -75.161
+    }
+  },
+  {
+    "id": "res-5",
+    "name": "Share Food Program",
+    "description": "Share Food Program is a non-profit organization that leads the fight against food insecurity in the Philadelphia region by providing food to partners and directly to individuals and families.",
+    "location": {
+      "lat": 40.0152,
+      "lng": -75.1108
+    }
+  },
+  {
+    "id": "res-6",
+    "name": "City of Philadelphia Health Centers",
+    "description": "The Philadelphia Department of Public Health operates health centers throughout the city offering primary care, dental, and behavioral health services.",
+    "location": {
+      "lat": 39.965,
+      "lng": -75.15
+    }
+  }
+]

@@ -1,0 +1,53 @@
+{
+  "housing": [
+    {
+      "id": "housing1",
+      "name": "Philadelphia Housing Authority",
+      "description": "The Philadelphia Housing Authority provides affordable housing options to low-income families, seniors, and individuals with disabilities.",
+      "address": "2013 Ridge Avenue, Philadelphia, PA 19121",
+      "phone": "(215) 684-4000",
+      "website": "http://www.pha.phila.gov",
+      "hours": "Monday-Friday: 8:30am-4:30pm",
+      "eligibility": "Income-based eligibility requirements apply. Generally available to Philadelphia residents with income below 80% of area median income.",
+      "coordinates": {
+        "lat": 39.9784,
+        "lng": -75.1678
+      },
+      "image": "/public/housing.jpg"
+    }
+  ],
+  "food": [
+    {
+      "id": "food1",
+      "name": "Philabundance Food Bank",
+      "description": "Philabundance is the largest hunger relief organization in the Delaware Valley, providing food to those in need and promoting long-term solutions to food insecurity.",
+      "address": "3616 S Galloway St, Philadelphia, PA 19148",
+      "phone": "(215) 339-0900",
+      "website": "https://www.philabundance.org",
+      "hours": "Distribution times vary by location. Check website for details.",
+      "eligibility": "No eligibility requirements to receive food assistance.",
+      "coordinates": {
+        "lat": 39.9121,
+        "lng": -75.1932
+      },
+      "image": "/public/food.jpg"
+    }
+  ],
+  "health": [
+    {
+      "id": "health1",
+      "name": "Philadelphia Department of Public Health Centers",
+      "description": "City health centers that provide primary care and preventive health services to Philadelphia residents regardless of their ability to pay.",
+      "address": "1401 JFK Blvd, Philadelphia, PA 19102",
+      "phone": "(215) 686-5000",
+      "website": "https://www.phila.gov/departments/department-of-public-health/",
+      "hours": "Monday-Friday: 8:00am-5:00pm",
+      "eligibility": "Open to all Philadelphia residents. Sliding fee scale based on income.",
+      "coordinates": {
+        "lat": 39.9536,
+        "lng": -75.1638
+      },
+      "image": "/public/health.jpg"
+    }
+  ]
+}

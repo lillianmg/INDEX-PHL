@@ -58,9 +58,7 @@ export default function Home() {
           {/* Add additional cards as needed */}
         </div>
 
-        <div className="p-6 rounded-lg flex justify-center items-center h-74">
-          <InteractiveMap />
-        </div>
+        <InteractiveMap />
 
 
         {/* Interactive Map Placeholder */}

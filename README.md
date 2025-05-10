@@ -1,6 +1,11 @@
 # IndexPHL
 
+
+
+
 **Your Guide to Navigating Philly, One Resource at a Time**
+
+[Watch the Demo Video](https://www.youtube.com/embed/YDASd6kd8J8?si=-f6b5JowM_czbh7w)
 
 ![IndexPHL Logo](public/logo.png) 
 

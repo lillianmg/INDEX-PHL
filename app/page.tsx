@@ -1,4 +1,16 @@
-// import Image from "next/image";
+// app/page.tsx
+'use client';
+
+import dynamic from 'next/dynamic'; // Import dynamic
+
+const InteractiveMap = dynamic(
+  () => import('@/components/InteractiveMap'),
+  {
+    ssr: false,
+  }
+);
+
+// import AIpoweredSearch from "@/components/AIpoweredSearch";
 
 export default function Home() {
   return (
@@ -13,6 +25,11 @@ export default function Home() {
             Find local resources across Philadelphia: food, housing, health, transit & more.
           </p>
           <div className="flex justify-center items-center">
+            {/* AI-Powered Search Bar */}
+            {/* <AIpoweredSearch /> */}
+
+
+            {/* A test search */}
             <input
               type="text"
               placeholder="Search for resources..."
@@ -27,25 +44,30 @@ export default function Home() {
         {/* Resource Categories Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mb-10">
           <div className="p-6 bg-gray-100 rounded-lg shadow">
-            <h2 className="text-xl font-semibold mb-2">Housing</h2>
+            <h2 className="text-xl font-semibold mb-2  text-gray-900">Housing</h2>
             <p className="text-gray-700">Find safe and affordable housing options.</p>
           </div>
           <div className="p-6 bg-gray-100 rounded-lg shadow">
-            <h2 className="text-xl font-semibold mb-2">Food</h2>
+            <h2 className="text-xl font-semibold mb-2  text-gray-900">Food</h2>
             <p className="text-gray-700">Locate food banks and pantries near you.</p>
           </div>
           <div className="p-6 bg-gray-100 rounded-lg shadow">
-            <h2 className="text-xl font-semibold mb-2">Health</h2>
+            <h2 className="text-xl font-semibold mb-2 text-gray-900">Health</h2>
             <p className="text-gray-700">Access local health services and support.</p>
           </div>
           {/* Add additional cards as needed */}
         </div>
 
-        {/* Interactive Map Placeholder */}
-        <div className="p-6 bg-gray-200 rounded-lg flex justify-center items-center h-64">
-          <p className="text-gray-600">Interactive Map Placeholder</p>
+        <div className="p-6 rounded-lg flex justify-center items-center h-74">
+          <InteractiveMap />
         </div>
+
+
+        {/* Interactive Map Placeholder */}
+        {/* <div className="p-6 bg-gray-200 rounded-lg flex justify-center items-center h-64"> */}
+        {/* <p className="text-gray-600">Interactive Map Placeholder</p> */}
+        {/* </div> */}
       </div>
-    </section>
+    </section >
   );
 }

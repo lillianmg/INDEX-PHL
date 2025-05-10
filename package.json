@@ -11,11 +11,12 @@
   "dependencies": {
     "leaflet": "^1.9.4",
     "leaflet-control-geocoder": "^3.1.0",
+    "leaflet-fullscreen": "^1.0.2",
     "leaflet.locatecontrol": "^0.84.2",
     "next": "15.3.2",
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "react-leaflet": "^4.2.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-leaflet": "^5.0.0",
     "react-leaflet-fullscreen": "^4.1.1"
   },
   "devDependencies": {
